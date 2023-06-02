@@ -7,6 +7,6 @@ class Main {
 
     Calendar c = Calendar.getInstance();
 
-    System.out.println(new SimpleDateFormat("dd-MM-yyyy").format(c.getTime()));
+    System.out.println(new SimpleDateFormat("yyyy-MM-dd").format(c.getTime()));
   }
 }
