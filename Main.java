@@ -10,6 +10,6 @@ class Main {
 
     Date d = c.getTime();
 
-    System.out.println(new SimpleDateFormat("yyyy-MM-dd").format(d));
+    System.out.println(new SimpleDateFormat("dd/MM/yyyy").format(d));
   }
 }
