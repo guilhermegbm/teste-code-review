@@ -1,5 +1,6 @@
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 class Main {
   public static void main(String[] args) {
@@ -7,6 +8,8 @@ class Main {
 
     Calendar c = Calendar.getInstance();
 
-    System.out.println(new SimpleDateFormat("yyyy-MM-dd").format(c.getTime()));
+    Date d = c.getTime();
+
+    System.out.println(new SimpleDateFormat("yyyy-MM-dd").format(d));
   }
 }
